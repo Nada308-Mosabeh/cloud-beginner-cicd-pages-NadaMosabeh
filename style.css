@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3e8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: rgba(244, 231, 241, 0.947);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #d63384;
+}
+
+p {
+  line-height: 1.6;
+  color: #333;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #ff66b2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0559c;
+  opacity: 0.9;
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: green;
+}
